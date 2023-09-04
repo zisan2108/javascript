@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Window Object</title>
 </head>
-<body>
+
+
+<body >
+
+
+<!--//39 <body onload="MyEvent('load hoyece')"> -->
 
     <!-- <button onclick="ObjOpen()">Click</button> -->
    
+
+<!-- 38 Js common events -->
+
+    <!-- <button onclick="MyEvent('click hoyece')">Click Event</button>
+    <button onmouseover="MyEvent('mouse over hoyece')">mouse over</button>
+    <button onmouseout="MyEvent('click hoyece')">mouse out</button> -->
+
+
+    <!-- 39 JS Common Events -->
+
+    <!-- <input onchange="MyEvent('change hoyece')"></br>
+    <input onkeydown="MyEvent('key down hoyece')"></br>
+    <input onkeyup="MyEvent('key up hoyece')"></br>
+ -->
+
    <script>
 
 // 35 JS Window Object
@@ -46,23 +66,59 @@
         
 // 36 JS Navigator Object
 
-            var appCodeName =navigator.appCodeName;
-            var appName =navigator.appName;
-            var appVersion =navigator.appVersion;
-            var cookieEnabled =navigator.cookieEnabled;
-            var language =navigator.language;
-            var userAgent =navigator.userAgent;
-            var platform =navigator.platform;
+            // var appCodeName =navigator.appCodeName;
+            // var appName =navigator.appName;
+            // var appVersion =navigator.appVersion;
+            // var cookieEnabled =navigator.cookieEnabled;
+            // var language =navigator.language;
+            // var userAgent =navigator.userAgent;
+            // var platform =navigator.platform;
 
-            document.write(appCodeName+"<br>")
-            document.write(appName+"<br>")
-            document.write(appVersion+"<br>")
-            document.write(cookieEnabled+"<br>")
-            document.write(language+"<br>")
-            document.write(userAgent+"<br>")
-            document.write(platform+"<br>")
+            // document.write(appCodeName+"<br>")
+            // document.write(appName+"<br>")
+            // document.write(appVersion+"<br>")
+            // document.write(cookieEnabled+"<br>")
+            // document.write(language+"<br>")
+            // document.write(userAgent+"<br>")
+            // document.write(platform+"<br>")
 
             
+// 37 js geolocation
+
+/*
+         navigator.geolocation.getCurrentPosition(function(position){
+            
+            let altitude =position.coords.altitude;
+            let latitude =position.coords.latitude;
+            let longitude =position.coords.longitude;
+            let speed =position.coords.speed;
+
+            document.write("altitude:"+altitude+"<br>")
+            document.write("latitude:"+latitude+"<br>")
+            document.write("longitude:"+longitude+"<br>")
+            document.write("speed:"+speed+"<br>")
+
+         })   
+
+*/
+
+// 38 Js common events
+
+    // function MyEvent(msg){
+    //     console.log(msg)
+    // }
+
+// 39 JS Common Events
+
+// function MyEvent(msg){
+//         console.log(msg)
+//     }
+
+
+// 40 Introduction to DOM
+
+
+
 
     </script>
     
