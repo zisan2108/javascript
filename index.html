@@ -61,6 +61,7 @@ for(var item in Person){
 
 //  21 Array Concate And Array Form
 
+/*
 var arr1=['A','B','C'];
 var arr2=['D','E','F']
 
@@ -72,9 +73,18 @@ var Title="Learn With Zisan";
 var TitleArray= Array.from(Title);
 
 document.write(TitleArray[12]);
+*/
 
 
 
+// 22 Array Filter
+
+var numArry=[30,32,40,55,60,80,90];
+
+var result=numArry.filter(function(item){
+    return item<50
+});
+document.write(result);
 
 
 
